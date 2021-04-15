@@ -32,7 +32,7 @@ const BookForm = (props) => {
         bookname,
         author,
         price,quantity,
-        date: new Date();
+        date: new Date()
       }
       props.handleOnSubmit(book)
     } else {
