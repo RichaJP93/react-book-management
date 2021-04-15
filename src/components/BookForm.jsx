@@ -83,7 +83,7 @@ const BookForm = (props) => {
             name="bookname"
             value={bookname}
             placeholder="Enter book name"
-            onChange={handleInputChange}
+            onChange={handleChange}
           />
         </Form.Group>
         <Form.Group controlId="author">
@@ -94,7 +94,7 @@ const BookForm = (props) => {
             name="author"
             value={author}
             placeholder="Enter book author"
-            onChange={handleInputChange}
+            onChange={handleChange}
           />
         </Form.Group>
         <Form.Group controlId="quantity">
@@ -105,7 +105,7 @@ const BookForm = (props) => {
             name="quantity"
             value={quantity}
             placeholder="Enter available quantity"
-            onChange={handleInputChange}
+            onChange={handleChange}
           />
         </Form.Group>
         <Form.Group controlId="price">
@@ -116,7 +116,7 @@ const BookForm = (props) => {
             name="price"
             value={price}
             placeholder="Enter book price"
-            onChange={handleInputChange}
+            onChange={handleChange}
           />
         </Form.Group>
         <Button variant="primary" type="submit" className="submit-btn">
